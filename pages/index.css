@@ -1,3 +1,7 @@
+h2 {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -148,6 +152,114 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+}
+
+.reservation__form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.form {
+  color: #000;
+  max-width: 385px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__fieldset {
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 20px;
+  border: 1px solid #838383;
+  margin-bottom: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__input_type_email {
+  margin-bottom: 0px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #1878dc;
+  transition: background-color 0.5s ease-in-out;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__button:hover {
+  border-radius: 4px;
+  background-color: #3f96f3;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 .footer {
