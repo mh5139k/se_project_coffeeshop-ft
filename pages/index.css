@@ -7,3 +7,9 @@
 @import url(../blocks/form.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/menu.css);
+@import url(../blocks/card.css);
+
+h3,
+h2 {
+  margin: 0;
+}
