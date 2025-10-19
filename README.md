@@ -13,4 +13,6 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Change the background of the footer to distinguish it from the about section
+- Add hours and phone number to the footer
+- Optimize for mobile

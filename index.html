@@ -27,10 +27,10 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a class="nav__link">Recipes</a></li>
-            <li><a class="nav__link">Book a table</a></li>
-            <li><a class="nav__link">Menu</a></li>
-            <li><a class="nav__link">Contacts</a></li>
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#reservation">Book a table</a></li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#about">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -59,7 +59,7 @@
       </header>
 
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <h3 class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -96,7 +96,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
@@ -118,12 +118,13 @@
                 placeholder="1-8"
               />
 
-              <label class="form__label">Date & time</label>
-              <input class="form__input" type="datetime-local" />
+              <label class="form__label" for="datetime">Date & time</label>
+              <input class="form__input" id="datetime" type="datetime-local" />
 
-              <label class="form__label">Your email</label>
+              <label class="form__label" for="email">Your email</label>
               <input
                 class="form__input form__input_type_email"
+                id="email"
                 type="email"
                 placeholder="email@email.com"
               />
@@ -141,7 +142,7 @@
             </label>
           </form>
         </section>
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <h3 class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -239,6 +240,25 @@
               </ul>
             </div>
           </div>
+        </section>
+        <section class="about" id="about">
+          <h3 class="about__title">About the coffee shop</h3>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
 
